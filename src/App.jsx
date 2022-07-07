@@ -3,6 +3,7 @@ import { reqKitten } from "./api/api";
 import { reqDog } from "./api/api";
 import './App.css';
 import { Container } from "./componentes/container";
+import Footer from "./Footer";
 
 function App() {
     
@@ -59,6 +60,7 @@ async function generateImagesKitten(){
    <div className="allItems">
     <Container image={imageDog} generateImages={generateImagesDog} name="Dog" />
     <Container image={imageKitten}  generateImages={generateImagesKitten} name="Kitten"  />
+    <Footer/>
     </div>   
   )
 }
