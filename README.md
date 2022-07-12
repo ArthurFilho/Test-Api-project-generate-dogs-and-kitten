@@ -1,6 +1,6 @@
 <h1> Languages </h1>
 
-React.js
+<div>React.js</div>
 CSS
 JAVASCRIPT
 AXIOS
