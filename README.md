@@ -1,5 +1,6 @@
 <h1> Test Api project generate dogs and kitten </h1>
 
+![Screenshot_1](https://user-images.githubusercontent.com/96798145/183301308-1674b814-7afb-49fb-b246-a4fd5abeb353.png)
 
 <h2> O que foi utilizado 💻 </h2>
 
