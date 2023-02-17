@@ -3,9 +3,9 @@ import { reqKitten } from "./api/api";
 import { reqDog } from "./api/api";
 import './App.css';
 import { Container } from "./componentes/container";
-import Footer from "./Footer";
+import { Footer } from "./Footer";
 
-function App() {
+export function App() {
     
   
     const [imageKitten, setImageKitten] = useState();
@@ -64,5 +64,3 @@ async function generateImagesKitten(){
     </div>   
   )
 }
-
-export default App

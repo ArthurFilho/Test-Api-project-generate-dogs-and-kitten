@@ -2,7 +2,7 @@ import Github from "./assets/github.png"
 import Linkedin from "./assets/linkedin.png"
 import Email from "./assets/email.png"
 
-function Footer(){
+export function Footer(){
     return(
     <div className="footer">
     <div class="footers">
@@ -15,4 +15,3 @@ function Footer(){
 }
 
 
-export default Footer;
